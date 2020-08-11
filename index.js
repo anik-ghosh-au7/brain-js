@@ -11,4 +11,5 @@ const trainingData = [
 
 net.train(trainingData);
 
-console.log(net.run([0, 1]));
+console.log(net.run([0, 1])); // [ 0.9335762858390808 ]
+console.log(net.run([0, 0])); // [ 0.05643659085035324 ]
